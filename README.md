@@ -39,4 +39,4 @@ The globals.ts file in the root directory contains global variables used through
 
 # Accesibility Testing
 
-Accesibility testing was performed on the website using the AXE tool and the results are shared in the .csv file.
+Accesibility testing was performed on the website using the AXE tool and the results are shared in the Accesibility_Testing_Report.csv file.
