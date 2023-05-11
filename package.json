@@ -1,0 +1,21 @@
+{
+  "name": "carddonation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run_spec": "npx cypress run --spec 'cypress/e2e/TestCardDonation.cy.ts' --headless",
+    "cy:run_browser": "npm run cy:run_spec -- --browser chrome & npm run cy:run_spec -- --browser edge"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.12.0",
+    "cypress-iframe": "^1.0.1"
+  },
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}
